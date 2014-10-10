@@ -1,0 +1,23 @@
+".container": {
+	backgroundColor:"white"
+},
+'#welcome': {
+	top: '10%'	
+},
+"#newInspection": {
+	top: '20%'
+},
+"#contInspection": {
+	top: '25%'
+}, 
+"#histInspection": {
+	top: '30%'
+}, 
+"#settings": {
+	top: '35%'
+},
+"Button": {
+	height: '20',
+	width: '200',
+	backgroundColor: 'red'
+}

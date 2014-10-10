@@ -1,0 +1,27 @@
+
+".container" : {
+ 	backgroundColor: 'white'
+},
+"#modelLabel": {
+	top: '10%'
+},
+"#rp": {
+	top: '20%'
+},
+"#dc": {
+	top: '30%'
+},
+"#pvb": {
+	top: '40%'
+},
+"#svb": {
+	top: '50%'
+},
+"#rpda": {
+	top: '60%'
+},
+"Button": {
+	height: '40',
+	width: '90%',
+	backgroundColor: 'red'
+}

@@ -1,0 +1,54 @@
+
+".container" : {
+ 	backgroundColor: 'blue' 
+},
+"#nameLbl": {
+	top: '10%',
+	left: '10%'
+	
+},
+"#customerName": {
+	top: '10%',
+	left: '40%'
+	
+},
+"#addressLbl": {
+	top: '20%',
+	left: '10%'
+	
+},
+"#customerAddress": {
+	top: '20%',
+	left: '40%',
+	
+},
+"#modelLbl": {
+	top: '30%',
+	left: '10%',
+},
+"#customerModel": {
+	top: '30%',
+	left: '40%',
+},
+"#inspectionDateLbl": {
+	top: '40%',
+	left: '10%',
+},
+"#inspectionDate": {
+	top: '40%',
+	left: '40%',
+},
+"#next": {
+	bottom: 10,
+	right: 10
+},
+"TextField": {
+	backgroundColor: 'white',
+	height: '20',
+	width: '200'
+},
+"Button": {
+	height: '20',
+	width: '200',
+	backgroundColor: 'red'
+}

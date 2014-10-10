@@ -1,0 +1,11 @@
+<Alloy>
+	<Window id="rp">
+		<View class="container">
+			<Label id="title">Reduced Pressure Principle Backflow Prevention Assembly (RP)</Label>
+			<Button id="requirments">Requirements</Button>
+			<Button id="test1">Test 1</Button>
+			<Button id="test2">Test 2</Button>
+			<Button id="test3">Test 3</Button>
+		</View>
+	</Window>
+</Alloy>

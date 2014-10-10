@@ -1,0 +1,13 @@
+<Alloy>
+	<View id="customerInfoView" class="container">
+		<Label id="nameLbl">Customer Name: </Label>
+		<TextField id="customerName"></TextField>
+		<Label id="addressLbl">Customer Address: </Label>
+		<TextField id="customerAddress"></TextField>
+		<Label id="modelLbl">Customer Model: </Label>
+		<TextField id="customerModel"></TextField>
+		<Label id="inspectionDateLbl">Inspection Date: </Label>
+		<TextField id="inspectionDate"></TextField>
+		<Button id="save">Save</Button>
+	</View>
+</Alloy>

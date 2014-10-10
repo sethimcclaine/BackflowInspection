@@ -1,0 +1,36 @@
+".container" : {
+	backgroundColor: 'white'  
+},
+"#home": {
+	top: '10%',
+	left: '10%'
+},
+"#requiredLbl": {
+	top: "10%"	
+},
+"#aLbl": {
+	top: "30%"	
+},
+"#bLbl": {
+	top: "40%"	
+},
+"#cLbl": {
+	top: "50%"	
+},
+"#dLbl": {
+	top: "60%"	
+},
+"#eLbl": {
+	top: "70%"	
+},
+"#next": {
+	bottom: '10',
+	right: '10%'
+},
+"Button": {
+	height: '20',
+
+	width: '200',
+	backgroundColor: 'red'
+}
+

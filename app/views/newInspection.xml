@@ -1,0 +1,20 @@
+<Alloy>
+	<Window id="newInspection">
+		<View class="container">
+			<Label id="modelLabel">Which model are you inspecting</Label>
+			<!-- MANUAL OF CROSS-CONNECTION CONTROL -->
+			<!-- Ninth Edition -->
+			<!-- University of Souther California -->
+			<!--pg. 126-->
+			<Button id="rp">Reduced Pressure Principle Backflow Prevention Assembly (RP)</Button>
+			<!--pg. 143-->
+			<Button id="dc">Double Check Valve Backflow Prevention Assembly (DC)</Button>
+			<!--pg. 158-->
+			<Button id="pvb">Pressure Vacuum Breaker Backsiphonage Prevention Assembly (PVB)</Button>
+			<!--pg. 171-->
+			<Button id="svb">Spill-Resistant Pressure Vacuum Breaker Backsiphonage prevention Assembly(SVB)</Button>
+			<!--pg. 183-->
+			<Button id="rpda">Reduced Pressure Principle-Detector Backflow Prevention Assembly(RPDA)</Button>
+		</View>
+	</Window>
+</Alloy>

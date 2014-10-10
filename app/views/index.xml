@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<Label id="welcome">Welcome to the Backflow Inspection App</Label>
+		<Button id="newInspection">New Inspection</Button>
+		<Button id="contInspection">Continue Inspection</Button>
+		<Button id="histInspection">Inspection History</Button>
+		<Button id="settings">Settings</Button>
+		<Label id="copyright">Backflow Inspection App by Seth McClaine</Label>
+	</Window>
+</Alloy>

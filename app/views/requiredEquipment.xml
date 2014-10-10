@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="requiredEquipment">
+		<View class="container">
+			<Button id="home">Home</Button>
+			<Label id="requiredLbl">Equipment Required:</Label>
+			<Label id="aLbl">A) Differential Pressure Gage--Minimum range 0 - 15PSID (0.1 or 0.2 psid graduations)</Label>
+			<Label id="bLbl">B) Three 6ft. lengths - minimum 1/4"(/) high presure hose</Label>
+			<Label id="cLbl">C) 1/4" Needle valves, for fine control of flows</Label>
+			<Label id="dLbl">D) Three 1/4" IPS x 45deg SAE flare connectors--brass</Label>
+			<Label id="eLbl">E)Adapter fittings for eaach test cock size -- brass 1/8" x 1/4", 1/4" x 1/2", 1/4" x 3/4"</Label>
+			<Button id="next">Next</Button>
+		</View>
+	</Window>
+</Alloy>
