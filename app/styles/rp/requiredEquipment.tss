@@ -1,9 +1,7 @@
 ".container" : {
-	backgroundColor: 'white'  
-},
-"#home": {
-	top: '10%',
-	left: '10%'
+	backgroundColor: 'white',
+	bottom: 40,
+	top: 40
 },
 "#requiredLbl": {
 	top: "10%"	
@@ -22,10 +20,6 @@
 },
 "#eLbl": {
 	top: "70%"	
-},
-"#next": {
-	bottom: '10',
-	right: '10%'
 },
 "Button": {
 	height: '20',

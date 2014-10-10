@@ -1,0 +1,5 @@
+".container" : {
+	backgroundColor: 'white',
+	bottom: 40,
+	top: 40
+}

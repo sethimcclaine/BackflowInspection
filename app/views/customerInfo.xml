@@ -6,8 +6,11 @@
 		<TextField id="customerAddress"></TextField>
 		<Label id="modelLbl">Customer Model: </Label>
 		<TextField id="customerModel"></TextField>
+		<Label id="inspectionLocationLbl">Inspection Location: </Label>
+		<TextField id="inspectionLocation"></TextField>
 		<Label id="inspectionDateLbl">Inspection Date: </Label>
 		<TextField id="inspectionDate"></TextField>
 		<Button id="save">Save</Button>
+		<Button id="cancel">Cancel</Button>
 	</View>
 </Alloy>

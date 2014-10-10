@@ -10,26 +10,30 @@
 // Constants
 
 // Private Properties
+var self = this;
 var args = arguments[0] || {};
 var win = $.newInspection;
+var customerInfoView = null;
 
 // Private Methods
 
 // Public Properties
 function openContact(e) {
-	var customerInfoView = Alloy.createController('customerInfo', {testType: e.source.id}).getView();
+	if (customerInfoView === null) {
+		customerInfoView = Alloy.createController('customerInfo', {win: win, testType: e.source.id}).getView();
+	}
 	win.add(customerInfoView);
 }
-function openModel(e) {
-	//*
-	var model = e.testType; //not sure if thats right
-	var modelController = Alloy.createController(model, {});
-	/*/
+function close() {
+	win.close();
+}
 
-	var modelController = Alloy.createController('requiredEquipment', {});
-	//*/
+function openModel(e) {
+	var model = e.testType; //not sure if thats right
+	var modelController = Alloy.createController(model+'/'+model, {});
 	var modelView = modelController.getView();
 	modelView.open();
+	close();
 }
 
 
@@ -41,6 +45,7 @@ $.dc.addEventListener('click', openContact);
 $.pvb.addEventListener('click', openContact);
 $.svb.addEventListener('click', openContact);
 $.rpda.addEventListener('click', openContact);
+$.cancel.addEventListener('click', close);
 
 Ti.App.addEventListener('customerSave', openModel);
 //Initalization

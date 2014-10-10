@@ -2,22 +2,26 @@
 	backgroundColor:"white"
 },
 '#welcome': {
-	top: '10%'	
+	top: 40	
 },
 "#newInspection": {
-	top: '20%'
+	top: 100
 },
 "#contInspection": {
-	top: '25%'
+	top: 175 
 }, 
 "#histInspection": {
-	top: '30%'
+	top: 250
 }, 
 "#settings": {
-	top: '35%'
+	top: 325
+},
+"#copyright": {
+	bottom: 40
 },
 "Button": {
-	height: '20',
-	width: '200',
-	backgroundColor: 'red'
+	height: 40,
+	width: 200,
+	backgroundColor: 'red',
+	borderRadius: 20
 }

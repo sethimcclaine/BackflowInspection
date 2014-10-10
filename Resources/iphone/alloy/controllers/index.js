@@ -28,48 +28,53 @@ function Controller() {
     });
     $.__views.index && $.addTopLevelView($.__views.index);
     $.__views.welcome = Ti.UI.createLabel({
-        top: "10%",
+        top: 40,
         text: "Welcome to the Backflow Inspection App",
         id: "welcome"
     });
     $.__views.index.add($.__views.welcome);
     $.__views.newInspection = Ti.UI.createButton({
-        height: "20",
-        width: "200",
+        height: 40,
+        width: 200,
         backgroundColor: "red",
-        top: "20%",
+        borderRadius: 20,
+        top: 100,
         title: "New Inspection",
         id: "newInspection"
     });
     $.__views.index.add($.__views.newInspection);
     $.__views.contInspection = Ti.UI.createButton({
-        height: "20",
-        width: "200",
+        height: 40,
+        width: 200,
         backgroundColor: "red",
-        top: "25%",
+        borderRadius: 20,
+        top: 175,
         title: "Continue Inspection",
         id: "contInspection"
     });
     $.__views.index.add($.__views.contInspection);
     $.__views.histInspection = Ti.UI.createButton({
-        height: "20",
-        width: "200",
+        height: 40,
+        width: 200,
         backgroundColor: "red",
-        top: "30%",
+        borderRadius: 20,
+        top: 250,
         title: "Inspection History",
         id: "histInspection"
     });
     $.__views.index.add($.__views.histInspection);
     $.__views.settings = Ti.UI.createButton({
-        height: "20",
-        width: "200",
+        height: 40,
+        width: 200,
         backgroundColor: "red",
-        top: "35%",
+        borderRadius: 20,
+        top: 325,
         title: "Settings",
         id: "settings"
     });
     $.__views.index.add($.__views.settings);
     $.__views.copyright = Ti.UI.createLabel({
+        bottom: 40,
         text: "Backflow Inspection App by Seth McClaine",
         id: "copyright"
     });

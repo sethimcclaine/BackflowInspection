@@ -34,13 +34,25 @@
 	top: '40%',
 	left: '10%',
 },
-"#inspectionDate": {
+"#inspectionLocation": {
 	top: '40%',
 	left: '40%',
 },
-"#next": {
+"#inspectionLocationLbl": {
+	top: '50%',
+	left: '10%',
+},
+"#inspectionDate": {
+	top: '50%',
+	left: '40%',
+},
+"#save": {
 	bottom: 10,
 	right: 10
+},
+"#cancel": {
+	bottom: 10,
+	left: 10
 },
 "TextField": {
 	backgroundColor: 'white',

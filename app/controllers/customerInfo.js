@@ -12,8 +12,12 @@
 
 // Private Properties
 var args = arguments[0] || {};
+var win = args.win;
 
 // Private Methods
+function close() {
+	win.close();
+}
 function customerSave() {
 	console.log(args);
 	customerData = {
@@ -21,6 +25,7 @@ function customerSave() {
 		name: $.customerName.value,
 		address: $.customerAddress.value,
 		model: $.customerModel.value, 
+		inspectionLocation: $.inspectionLocation.value,
 		inspectionDate: $.inspectionDate.value
 	};
 	Ti.App.fireEvent('customerSave', customerData);
@@ -32,5 +37,6 @@ function customerSave() {
 
 // Event Registration
 $.save.addEventListener('click', customerSave);
+$.cancel.addEventListener('click', close);
 
 // Initialization
